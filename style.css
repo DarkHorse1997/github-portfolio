@@ -4,10 +4,18 @@
 	box-sizing: border-box;
 	margin: 0;
 }
+* {
+	--bg-color-dark: #1a1a1a;
+	--font-color-1-dark: #fff;
+	--font-color-2-dark: #679cdf;
+	--font-color-1-transparent-dark: #ffffff99;
+}
 
 html,
 body {
 	height: 100%;
+	background-color: var(--bg-color-dark);
+	color: var(--font-color-1-dark);
 }
 
 body {
