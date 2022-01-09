@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+
 *,
 *::before,
 *::after {
@@ -22,6 +24,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: "Overpass", sans-serif;
 }
 .layout-main {
 	flex: 1 1;
@@ -38,4 +41,26 @@ footer {
 	width: 860px;
 	max-width: 100%;
 	padding-inline: 1rem;
+}
+.footer-address {
+	display: flex;
+	flex-direction: column;
+	height: 80px;
+	justify-content: space-around;
+	border-top: 1px solid#262626;
+}
+
+.footer-address a {
+	text-decoration: none; /* Remove Underline */
+}
+
+.address-email {
+	font-style: normal; /* Remove Italic Text */
+	color: var(--font-color-1-dark);
+	font-size: 1.125rem;
+}
+.address-location {
+	font-size: 0.9rem;
+	font-style: italic;
+	color: var(--font-color-1-transparent-dark);
 }
