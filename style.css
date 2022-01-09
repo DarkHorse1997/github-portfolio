@@ -29,11 +29,13 @@ body {
 	align-items: center;
 	justify-content: center;
 	width: 860px;
-	max-width: 90%;
+	max-width: 100%;
+	padding-inline: 1rem;
 }
 
 footer {
 	margin-top: auto;
 	width: 860px;
-	max-width: 90%;
+	max-width: 100%;
+	padding-inline: 1rem;
 }
