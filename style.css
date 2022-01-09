@@ -36,6 +36,25 @@ body {
 	padding-inline: 1rem;
 }
 
+.content-container {
+	min-width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.content-name {
+	color: var(--font-color-2-dark);
+	font-size: 2.8125rem;
+}
+.content-profession {
+	font-size: 3.375rem;
+}
+.content-description {
+	color: var(--font-color-1-transparent-dark);
+	font-size: 2.25rem;
+}
+
 footer {
 	margin-top: auto;
 	width: 860px;
