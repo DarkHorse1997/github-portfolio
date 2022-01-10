@@ -71,6 +71,7 @@ footer {
 
 .footer-address a {
 	text-decoration: none; /* Remove Underline */
+	max-width: fit-content; /* Only take up content width in inline direction */
 }
 
 .address-email {
