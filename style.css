@@ -72,7 +72,8 @@ body {
 	transition-timing-function: ease-in;
 }
 
-.social-links a:hover {
+.social-links a:hover,
+.social-links a:focus {
 	background-color: #ffffff33;
 	box-shadow: 0 0 15px #ffffff4d;
 	transition-timing-function: ease-out;
