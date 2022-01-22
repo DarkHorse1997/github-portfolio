@@ -4,11 +4,12 @@
 	box-sizing: border-box;
 	margin: 0;
 }
-* {
+:root {
 	--bg-color-dark: #1a1a1a;
 	--font-color-1-dark: #fff;
 	--font-color-2-dark: #679cdf;
 	--font-color-1-transparent-dark: #ffffff99;
+	--width: 860px;
 }
 
 html,
@@ -25,6 +26,31 @@ body {
 	font-family: "Overpass", sans-serif;
 }
 
+/* Header Styles */
+
+.layout-header {
+	max-width: 100%;
+	width: var(--width);
+	margin-top: calc(1em + 16px);
+}
+.navbar {
+	width: 100%;
+}
+.navbar-list {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end; /* Links are right-aligned */
+	gap: 4rem;
+}
+.navbar-item:last-of-type {
+	margin-right: 16px;
+}
+.navbar-link {
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: var(--font-color-1-dark);
+}
+
 /* Main Content Styles */
 
 .layout-main {
@@ -32,7 +58,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 860px;
+	width: var(--width);
 	max-width: 100%;
 	padding-inline: 1rem;
 }
@@ -87,7 +113,7 @@ body {
 /* Footer Styles */
 footer {
 	margin-top: auto;
-	width: 860px;
+	width: var(--width);
 	max-width: 100%;
 	padding-inline: 1rem;
 }
