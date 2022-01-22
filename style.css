@@ -49,6 +49,23 @@ body {
 	text-decoration: none;
 	font-size: 1.5rem;
 	color: var(--font-color-1-dark);
+	position: relative;
+}
+.navbar-link::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	background-color: var(--font-color-2-dark);
+	height: 4px;
+	bottom: -4px;
+	left: 0;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+.navbar-link:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 /* Main Content Styles */
