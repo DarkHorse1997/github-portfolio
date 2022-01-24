@@ -211,6 +211,21 @@ footer {
 		margin-block: calc(0.8 * 32px);
 	}
 }
+@media (max-width: 800px) and (orientation: landscape) {
+	.layout-header {
+		margin-top: 16px;
+	}
+	.content-name {
+		font-size: calc(0.8 * 2.8125rem);
+	}
+	.content-profession {
+		font-size: calc(0.8 * 3.375rem);
+	}
+	.content-description {
+		font-size: calc(0.8 * 2.25rem);
+		margin-block: calc(0.8 * 32px);
+	}
+}
 
 /* Theme Change Button */
 [data-theme="light"] {
