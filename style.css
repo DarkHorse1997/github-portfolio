@@ -52,7 +52,7 @@ body {
 .layout-header {
 	max-width: 100%;
 	width: var(--width);
-	margin-top: calc(1em + 16px);
+	margin-top: 32px;
 }
 .navbar {
 	width: 100%;
@@ -188,6 +188,28 @@ footer {
 	font-size: 0.9rem;
 	font-style: italic;
 	color: var(--font-color-1-transparent);
+}
+
+@media (max-width: 480px) {
+	.layout-header {
+		margin-top: 16px;
+	}
+	.navbar-link {
+		font-size: calc(0.8 * 1.5rem);
+	}
+	.navbar-list {
+		gap: 2rem;
+	}
+	.content-name {
+		font-size: calc(0.8 * 2.8125rem);
+	}
+	.content-profession {
+		font-size: calc(0.8 * 3.375rem);
+	}
+	.content-description {
+		font-size: calc(0.8 * 2.25rem);
+		margin-block: calc(0.8 * 32px);
+	}
 }
 
 /* Theme Change Button */
