@@ -144,6 +144,16 @@ body {
 	height: 2.5rem;
 	width: 2.5rem;
 }
+.github-link-svg {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.path1 {
+	fill: var(--bg-color);
+}
+.path2 {
+	fill: var(--font-color-1);
+}
 
 /* Footer Styles */
 footer {
