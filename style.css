@@ -13,6 +13,7 @@
 	--box-shadow-color: #ffffff4d;
 
 	--width: 860px;
+	--social-button-size: 2.5rem;
 	/* Open Props easing */
 	--ease-3: cubic-bezier(0.25, 0, 0.3, 1);
 	--ease-out-5: cubic-bezier(0, 0, 0, 1);
@@ -144,12 +145,12 @@ body {
 }
 
 .social-links img {
-	height: 2.5rem;
-	width: 2.5rem;
+	height: var(--social-button-size);
+	width: var(--social-button-size);
 }
 .github-link-svg {
-	width: 2.5rem;
-	height: 2.5rem;
+	width: var(--social-button-size);
+	height: var(--social-button-size);
 }
 .path1 {
 	fill: var(--bg-color);
