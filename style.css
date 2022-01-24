@@ -9,6 +9,9 @@
 	--font-color-1: #fff;
 	--font-color-2: #679cdf;
 	--font-color-1-transparent: #ffffff99;
+	--hover-background: #ffffff33;
+	--box-shadow-color: #ffffff4d;
+
 	--width: 860px;
 	/* Open Props easing */
 	--ease-3: cubic-bezier(0.25, 0, 0.3, 1);
@@ -135,8 +138,8 @@ body {
 
 .social-links a:hover,
 .social-links a:focus {
-	background-color: #ffffff33;
-	box-shadow: 0 0 15px #ffffff4d;
+	background-color: var(--hover-background);
+	box-shadow: 0 0 15px var(--box-shadow-color);
 	transition-timing-function: ease-out;
 }
 
@@ -191,6 +194,8 @@ footer {
 	--bg-color: #fff;
 	--font-color-1: #1a1a1a;
 	--font-color-1-transparent: #1a1a1a99;
+	--hover-background: #1a1a1a33;
+	--box-shadow-color: #1a1a1a4d;
 }
 [data-theme="dark"] .theme-toggle {
 	--icon-fill: hsl(210 10% 70%);
