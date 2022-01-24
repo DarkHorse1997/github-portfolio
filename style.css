@@ -193,6 +193,7 @@ footer {
 [data-theme="light"] {
 	--bg-color: #fff;
 	--font-color-1: #1a1a1a;
+	--font-color-2: #0953b4;
 	--font-color-1-transparent: #1a1a1a99;
 	--hover-background: #1a1a1a33;
 	--box-shadow-color: #1a1a1a4d;
