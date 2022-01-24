@@ -57,6 +57,7 @@ body {
 	list-style-type: none;
 	display: flex;
 	justify-content: flex-end; /* Links are right-aligned */
+	align-items: baseline; /* Theme change icon lines up with other links */
 	gap: 4rem;
 }
 .navbar-item:last-of-type {
