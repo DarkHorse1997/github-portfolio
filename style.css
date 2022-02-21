@@ -85,7 +85,8 @@ body {
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 }
-.navbar-link:hover::after {
+.navbar-link:hover::after,
+.navbar-link:focus::after {
 	transform: scaleX(1);
 	transform-origin: bottom left;
 }
