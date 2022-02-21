@@ -11,6 +11,7 @@
 	--font-color-1-transparent: #ffffff99;
 	--hover-background: #ffffff33;
 	--box-shadow-color: #ffffff4d;
+	--card-bg-color: #202022;
 
 	--width: 860px;
 	--social-button-size: 2.5rem;
@@ -243,6 +244,7 @@ footer {
 	--font-color-1-transparent: #1a1a1a99;
 	--hover-background: #1a1a1a33;
 	--box-shadow-color: #1a1a1a4d;
+	--card-bg-color: #d7dae2;
 }
 [data-theme="dark"] .theme-toggle {
 	--icon-fill: hsl(210 10% 70%);
