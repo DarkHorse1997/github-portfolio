@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tanmoy Das</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Tanmoy Das" />
+		<meta name="description" content="Tanmoy Das, Frontend Web Developer Portfolio Site" />
+		<meta name="color-scheme" content="dark light" />
+		<meta name="keywords" content="HTML, CSS, Javascript, React, Portfolio" />
+		<script src="./theme-toggle.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="layout-header">
+			<nav class="navbar">
+				<ul class="navbar-list">
+					<li class="navbar-item"><a href="./index.html" class="navbar-link">Home</a></li>
+					<li class="navbar-item">
+						<a href="#" class="navbar-link">Projects</a>
+					</li>
+					<li class="navbar-item">
+						<a href="#" class="navbar-link">Resume</a>
+					</li>
+					<li class="navbar-item">
+						<button
+							class="theme-toggle"
+							id="theme-toggle"
+							title="Toggle light and dark theme"
+							aria-label="auto"
+						>
+							<svg
+								class="sun-and-moon"
+								aria-hidden="true"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<mask class="moon" id="moon-mask">
+									<rect x="0" y="0" width="100%" height="100%" fill="white" />
+									<circle cx="24" cy="10" r="6" fill="black" />
+								</mask>
+								<circle
+									class="sun"
+									cx="12"
+									cy="12"
+									r="6"
+									mask="url(#moon-mask)"
+									fill="currentColor"
+								/>
+								<g class="sun-beams" stroke="currentColor">
+									<line x1="12" y1="1" x2="12" y2="3" />
+									<line x1="12" y1="21" x2="12" y2="23" />
+									<line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+									<line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+									<line x1="1" y1="12" x2="3" y2="12" />
+									<line x1="21" y1="12" x2="23" y2="12" />
+									<line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+									<line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+								</g>
+							</svg>
+						</button>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="layout-main"></main>
+		<footer class="layout-footer">
+			<address class="footer-address">
+				<a href="mailto:tanmoydas1997@gmail.com" class="address-email"
+					>tanmoydas1997@gmail.com</a
+				>
+				<a href="https://goo.gl/maps/FXL8fMx1tkDM5dKFA" class="address-location"
+					>Kolkata, India</a
+				>
+			</address>
+		</footer>
+	</body>
+</html>
