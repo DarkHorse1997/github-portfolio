@@ -91,7 +91,12 @@ body {
 	transform: scaleX(1);
 	transform-origin: bottom left;
 }
-
+.active-page {
+	color: var(--font-color-2);
+}
+.active-page::after {
+	transform: scaleX(1);
+}
 /* Main Content Styles */
 
 .layout-main {
